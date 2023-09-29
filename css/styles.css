@@ -1,0 +1,126 @@
+:root {
+/*colors*/
+    --primary-brand:#4D5AE5;
+    --pressed-state: #404BBF;
+    --dark:#2E2F42;
+    --success:#31D0AA;
+    --text:#434455;
+    --subtle-text:#8E8F99;
+    --accent:#E7E9FC;
+    --light:#F4F4FD;
+    --modal-overlay:#2E2F42;
+    --hero-background:#2E2F42; /*mistake in figma?? - check it*/
+    --white-background:#FFFFFF;
+    --modal-background:#FCFCFC;
+
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+color: var(--text);
+background-color: var(--modal-background);
+}
+
+/* Style logo in header and footer */
+.logo{
+    color:var(--dark);
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    word-wrap: break-word;
+}
+
+/*Style body - index and portfolio*/
+.link{
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--pressed-state);
+}
+
+.link:focus{
+    color: var(--pressed-state);
+}
+
+.button{
+    color: var(--white-background);
+    background-color: var(--primary-brand);
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    word-wrap: break-word;
+}
+
+.button:hover{
+    background-color: var(--pressed-state);
+    cursor: pointer;
+}
+.list{
+    text-decoration: none;
+    list-style: none;
+}
+.slider{
+    background-color: var(--modal-overlay);
+}
+.slider>h1{
+    color: var(--white-background);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.values {
+    color:var(--text);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    word-wrap: break-word;
+    list-style: none;
+}
+
+.team{
+    background-color: var(--light);
+}
+
+.header{
+    text-align: center;
+}
+.hidden{
+    visibility: hidden;
+}
+
+/*style header*/
+
+.logo>ul{
+    color:var(--dark);
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    word-wrap: break-word;
+}
+
+.address{
+    color:var(--text);
+    font-size: 16px;
+    font-family: Roboto;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    word-wrap: break-word;
+    font-style: normal;
+}
+
+/*Style footer*/
+.logo>p{
+    font-family:Roboto;
+}
