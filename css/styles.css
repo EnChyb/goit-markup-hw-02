@@ -33,6 +33,10 @@ background-color: var(--modal-background);
     word-wrap: break-word;
 }
 
+.web{
+    color: var(--primary-brand)
+}
+
 /*Style body - index and portfolio*/
 .link{
     text-decoration: none;
@@ -66,7 +70,7 @@ background-color: var(--modal-background);
     list-style: none;
 }
 .slider{
-    background-color: var(--modal-overlay);
+    background-color: var(--hero-background);
 }
 .slider>h1{
     color: var(--white-background);
@@ -121,6 +125,15 @@ background-color: var(--modal-background);
 }
 
 /*Style footer*/
+.footer{
+    color: var(--light);
+    background-color: var(--hero-background);
+}
+
+.footer>a{
+    color:var(--light)
+}
+
 .logo>p{
-    font-family:Roboto;
+    font-family: Roboto;
 }
