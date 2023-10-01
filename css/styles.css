@@ -43,6 +43,11 @@ background-color: var(--white-background);
     text-decoration: none;
 }
 
+.link-nav {
+    font-weight: 500;
+    color: var(--dark);
+
+}
 .address {
     color: var(--text);
     font-size: 16px;
@@ -51,6 +56,10 @@ background-color: var(--white-background);
     letter-spacing: 0.32px;
     word-wrap: break-word;
     font-style: normal;
+}
+
+.link-adress{
+    color: var(--text);
 }
 /*Style body - index and portfolio*/
 
